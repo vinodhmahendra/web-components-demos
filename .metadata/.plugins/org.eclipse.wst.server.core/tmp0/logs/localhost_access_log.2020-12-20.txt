@@ -5,3 +5,10 @@
 127.0.0.1 - - [20/Dec/2020:06:44:11 +0000] "GET / HTTP/1.1" 404 994
 127.0.0.1 - - [20/Dec/2020:06:44:11 +0000] "GET /soccer/ HTTP/1.1" 304 -
 127.0.0.1 - - [20/Dec/2020:06:44:15 +0000] "GET /soccer/list_leagues.view HTTP/1.1" 200 626
+127.0.0.1 - - [20/Dec/2020:09:21:16 +0000] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [20/Dec/2020:09:21:16 +0000] "GET /soccer/ HTTP/1.1" 304 -
+127.0.0.1 - - [20/Dec/2020:09:21:48 +0000] "GET /soccer/add_league.html HTTP/1.1" 404 1038
+127.0.0.1 - - [20/Dec/2020:09:22:00 +0000] "GET /soccer/admin/add_league.html HTTP/1.1" 200 893
+127.0.0.1 - - [20/Dec/2020:09:22:43 +0000] "POST /soccer/admin/add_league.do HTTP/1.1" 200 435
+127.0.0.1 - - [20/Dec/2020:09:22:59 +0000] "POST /soccer/admin/add_league.do HTTP/1.1" 200 488
+127.0.0.1 - - [20/Dec/2020:09:23:13 +0000] "POST /soccer/admin/add_league.do HTTP/1.1" 200 530
